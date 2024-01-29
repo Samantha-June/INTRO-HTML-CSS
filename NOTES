@@ -4,13 +4,21 @@ REFLECTIONS
 
 #HTML
 What is HTML (acronym)
+HTML stands for Hypertext Markup Language. HTML forms the foundation of website and web app development. It is the language that allows you to make 
+sure your content is understandable to both people and computers.
+
+The focus is on semantic markup, which means labeling content for what it is, rather than just for formatting or convenience. This is important 
+because it affects how differently abled individuals experience the web. By using semantic markup, you ensure that screen readers and search 
+engines can accurately interpret and categorize the information on a page.
 
 Why do we use it
 Difficulty understanding
 Used to create
-Features (Elements & Attributes)
+Features (Syntax, Formatting, Styling, Elements & Attributes)
 Examples
 Why it is used with other features
+
+Other interesting HTML facts
 
 #CSS
 What is CSS (acronym)
