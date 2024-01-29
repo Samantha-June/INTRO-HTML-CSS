@@ -6,7 +6,7 @@ REFLECTIONS
 What is HTML (acronym)
 HTML stands for Hypertext Markup Language. HTML forms the foundation of website and web app development. It is the language that allows you to make 
 sure your content is understandable to both people and computers. It serves as a channel for different types of content like words, images, 
-videos, audio, forms, and interactive experiences.
+videos, audio, forms, and interactive experiences. It allows us to structure our content and bridge the gap between human and computer languages.
 
 The focus is on semantic markup, which means labeling content for what it is, rather than just for formatting or convenience. This is important 
 because it affects how differently abled individuals experience the web. By using semantic markup, you ensure that screen readers and search 
