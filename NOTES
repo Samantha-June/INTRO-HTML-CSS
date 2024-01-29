@@ -4,6 +4,7 @@ REFLECTIONS
 
 #HTML
 What is HTML (acronym)
+
 Why do we use it
 Difficulty understanding
 Used to create
@@ -17,6 +18,9 @@ CSS is a style sheet language used for describing the presentation of a document
 In other words, CSS is the language we use to style an HTML document and describe how HTML elements should be displayed.
 
 Why do we use it
+
+HTML and CSS work hand in hand to create the visual aspects of a webpage. 
+
 Difficulty understanding
 Used to create
 Features (Elements & Attributes)
