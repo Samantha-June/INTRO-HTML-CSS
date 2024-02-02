@@ -60,4 +60,35 @@ Now, CSS has a bit of a tricky side to it. It's got some computer science stuff 
 
 HTML and CSS work hand in hand to create the visual aspects of a webpage. 
 
+I have diffulty understanding the below:
+
+HTML
+Knowing the difference between CSS and JS on a webpage
+Knowing how to divide my webpage into header and footer sections
+Understanding how broken code works and how to fix it
+How the DOM Tree works
+How code looks like for root folder images
+What is a class navbar
+Understanding image resolutions and sizes to look perfect on a webpage
+Knowing which image format to use (Gif, svg, jpg, png)
+Knowing what Iframes are and how it works
+Understanding Script and script element
+Github on vs code (pull, push, commit)
+
+CSS
+How to incorporate ARIA roles
+Examples of classes
+Background image (to have no repeats)
+Box Model (border, padding, margin)
+What we use <span> for
+Linking a stylesheet to HTML
+Understanding CSS selectors (element, class, group, descendent)
+Understanding Attributes in a form (for, id, placeholder)
+Understanding Declaration blocks
+Incorporating colour schemes from CANVA to HTML
+Knowing what Absolute & Relative sizes are
+Understanding CSS inheritance and styling CSS links
+
+
+
 
