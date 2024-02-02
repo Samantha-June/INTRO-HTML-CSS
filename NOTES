@@ -1,37 +1,59 @@
 INTRO TO HTML & CSS
-
 REFLECTIONS
 
 #HTML
 What is HTML (acronym)
-HTML stands for Hypertext Markup Language, a markup language for the web that defines the structure of web pages. 
-HTML forms the foundation of website and web app development. It is the language that allows you to make 
-sure your content is understandable to both people and computers. It serves as a channel for different types of content like words, images, 
-videos, audio, forms, and interactive experiences. It allows us to structure our content and bridge the gap between human and computer languages.
-
+The Web consists of three programming languages: HTML, CSS, and Javascript. HTML stands for Hypertext Markup Language, a markup language for the web that defines the structure of web pages. 
+HTML forms the foundation of website and web app development. It is the language that allows you to make sure your content is understandable to both people and computers. It serves as a channel for different types of content like words, images, videos, audio, forms, and interactive experiences. It allows us to structure our content and bridge the gap between human and computer languages.
 Hypertext: text (often with embeds such as images, too) that is organized in order to connect related items
-
 Markup: a style guide for typesetting anything to be printed in hardcopy or soft copy format
-
 Language: a language that a computer system understands and uses to interpret commands.
-
-HTML is the skeleton,
-CSS is the skin,
-and JavaScript is the circulatory, digestive, and respiratory systems that brings the structure and the skin to life.
-You can also look at HTML, CSS, and JavaScript this way: HTML is the structure of a house, CSS is the interior and 
-exterior decor, and JavaScript is the electricity, water system, and many other functional features that make the house livable.
-
-The focus is on semantic markup, which means labeling content for what it is, rather than just for formatting or convenience. This is important 
-because it affects how differently abled individuals experience the web. By using semantic markup, you ensure that screen readers and search 
-engines can accurately interpret and categorize the information on a page.
-
+•	HTML is the skeleton,
+•	CSS is the skin,
+•	and JavaScript is the circulatory, digestive, and respiratory systems that brings the structure and the skin to life.
+You can also look at HTML, CSS, and JavaScript this way: HTML is the structure of a house, CSS is the interior and exterior decor, and JavaScript is the electricity, water system, and many other functional features that make the house livable.
+The focus is on semantic markup, which means labeling content for what it is, rather than just for formatting or convenience. This is important because it affects how differently abled individuals experience the web. By using semantic markup, you ensure that screen readers and search engines can accurately interpret and categorize the information on a page.
+HTML has a straightforward structure without any programming logic, loops, or functions. It is known as a declarative language. The code simply declares instructions like "This is a paragraph!" or "Make this a link!" or "Put a form field here!". It is all about using the right vocabulary and making declarations.
+The beauty of HTML lies in its simplicity, which gives it resilience and robustness. Even if something is wrong with the HTML code, such as missing or misspelled elements, HTML is like, "Well, I will just take a guess and fix it. I will display this page anyway." HTML can handle a lot of abuse and still deliver a functional result.
+HTML Syntax
+HTML is a language used to structure web pages. It uses tags, which are enclosed in less-than and greater-than symbols, to mark different elements. Tags come in two types: opening tags and closing tags. For example, the opening tag for a paragraph is <p>, and the closing tag is </p>.
+ 
+HTML elements can also be nested within one another.
+ 
+HTML Headlines
+Let's discuss headlines. Web Pages usually contain various titles, headlines, and subheadings. When dealing with lengthy text, these elements serve the purpose of dividing the content into smaller, more digestible chunks. They play a crucial role in helping people comprehend the page's structure. On landing pages, headlines become the main content itself. They act as clickable titles that lead readers to further information.
+ 
+The HTML elements used for marking up headlines come in six different types: h1, h2, h3, h4, h5, and h6. When viewed in a browser, each headline has a distinct visual effect. These elements also convey a sense of hierarchy in how the browser interprets and communicates about the page. The h1 element is the largest and most prominent, while h6 is the smallest and least attention-grabbing.
+ 
+HTML Bold and Italics
+To summarize, there are four elements in HTML that allow us to mark text as bold or italicized. Two of them, "<em>" and "<strong>", convey meaning and serve a language-related purpose. The other two, "<i>" and "<b>", do not carry any specific meaning and are used solely for visual styling.
+In HTML, we have two different elements to convey this distinction. We use the "<i>" element to apply visual italics and the "<em>" element to add emphasis. It may seem like they look exactly the same visually, but they serve different purposes. We are not just playing with typography here; we are communicating semantic and human meaning.
+According to the information provided, we have two elements to emphasize or make something bold in HTML. The first one is the "<strong>" element, which is used to show importance, seriousness, or urgency. It is like saying, "Hey, this needs to stand out!" This element adds meaning to the text. On the other hand, the "<b>" element is more generic and neutral. It does not carry any specific meaning; it simply allows us to make something bold visually and does not imply any alternative voice or mood.
+So, we wrap the word "favorite" in "<em>" tags and wrap "Sesame Street" in "<i>" tags. Visually, they may appear identical, but they carry different meanings. It is crucial not to get lazy and use only one of these elements for everything. Depending on the context, they can have different effects on the listener or reader.
+Let's consider a couple of examples to understand better. For instance, if we have a warning message saying, "Warning! Do not be late," we want the word "warning" to be extra important and stand out, so we would use the "<strong>" element. Alternatively, we can use "<strong>" to highlight a specific part of a phrase as more significant than the rest. In the headline "Chocolate and coffee" is the key part, while "And other things I crave" is not as important but still part of the headline.
+If we want to make certain words bold without conveying any meaning, we can use the "<b>" element. This is useful when we want a specific phrase to catch the reader's attention, but we do not want it to hold any special significance for the browser or screen reader. However, it is essential to remember that if we simply want to change the appearance of text to be bold, we can achieve that using CSS instead. We can define the style for different elements, like h2 and h3, to make them bold or adjust their weight. The "<b>" element is mostly used as a last resort when there is no suitable element available.
+HTML Lists
+In HTML, there are three types of lists: unordered lists, ordered lists, and definition lists.
+ 
+ 
+In HTML, there is another type of list called the "definition list" or "description list." Unlike unordered or ordered lists with their list items, the definition list is used when we want to create a list that resembles a key-value pair in computer science. Instead of just items, we have terms and their corresponding descriptions.
+To create a definition list, we use specific elements. The term or key is enclosed in a  tag, which stands for definition term. The description or value is enclosed in a  tag, which stands for definition description. You can have multiple descriptions for each term by using multiple  tags. The entire list is wrapped in a tag, representing the definition list. Interestingly, the  tags and  tags are placed side by side without any additional wrapper around them. This is simply how a definition list is structured.
+ 
+HTML Quotes
+Let's take a look at this quote from Jeremy Keith. Essentially, it is a paragraph that can be enclosed with the  tags. To attribute the quote to Jeremy, we can use the  element. And to distinguish the quote from the surrounding text, we can wrap the whole thing in a  element.
+ 
+ 
+Some HTML elements, like <strong>, <b>, <I>, and <em>, are called "inline" because they are meant to wrap around phrases of text that are inline with other content. They serve a similar purpose as the "<q>" element. There are many more inline elements that you can use in HTML.
+Let's take the example of block quotes and the "<q>" element. They may seem similar, but they serve different purposes. One is used for inline phrases, while the other creates a block context.
+HTML Superscripts, Subscripts and Small Text
+Subscripts, superscripts, and small text can be used where you need to mark up certain bits of content as having a different meaning than the rest. Subscripts are characters that are set below the normal baseline for text. Did you ever take a chemistry class and learn how to write the formula for water, H2O, where the two are lower down than the H and the O? The two characters are typeset as a subscript. It is set lower down. Superscripts are characters that are set above the normal baseline of text. 
+ 
 Why do we use it
 Difficulty understanding
 Used to create
 Features (Syntax, Formatting, Styling, Elements & Attributes)
 Examples
 Why it is used with other features
-
 Other interesting HTML facts
 
 HTML determines the structure of web pages. This structure alone is not enough to make a web page look good and interactive. 
@@ -41,11 +63,10 @@ So you'll use assisted technologies such as CSS and JavaScript to make your HTML
 What is CSS (acronym)
 CSS is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. 
 In other words, CSS is the language we use to style an HTML document and describe how HTML elements should be displayed.
-
+CSS, short for Cascading Style Sheets, is like the stylist of a web page. It is responsible for how everything looks — the colors, fonts, and sizes. It is also capable of adding cool animations and interactions to spice things up.
+Now, CSS has a bit of a tricky side to it. It's got some computer science stuff going on, which makes it both fragile and powerful at the same time. When there is a hiccup in the CSS code, the browser is smart enough to skip that part and move on to the rest. So even if things do not turn out perfectly, the browser does its best to make most of it work. It's like a resilient problem-solver in that way.
 Why do we use it
-
 HTML and CSS work hand in hand to create the visual aspects of a webpage. 
-
 Difficulty understanding
 Used to create
 Features (Elements & Attributes)
